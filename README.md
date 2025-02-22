@@ -23,18 +23,22 @@ The dataset provides comprehensive information about food consumption, including
 | **Meal_Type**        | Type of meal (e.g., Breakfast, Lunch, Dinner, Snack).              |
 | **Water_Intake (ml)**| Amount of water consumed during the meal, measured in milliliters. |
 
-## Project Overview Features
+### Project Overview Features
 This project aims to explore key insights into daily food consumption, including the nutritional content of food items and meals. The analysis uses SQL queries to answer the following questions:
 
-Total Calories by Food Category: This query calculates the total calories consumed by each food category. It helps to identify which food categories contribute the most to overall calorie intake.
+#### Total Calories by Food Category: 
+This query calculates the total calories consumed by each food category. It helps to identify which food categories contribute the most to overall calorie intake.
 
-Total Nutrients Per Meal Type: This query sums up the nutritional content (Calories, Protein, Carbohydrates, and Fat) per meal type (e.g., Breakfast, Lunch, Dinner, Snack). It helps to understand which meals are most nutrient-dense.
+#### Total Nutrients Per Meal Type: 
+This query sums up the nutritional content (Calories, Protein, Carbohydrates, and Fat) per meal type (e.g., Breakfast, Lunch, Dinner, Snack). It helps to understand which meals are most nutrient-dense.
 
-Daily Caloric Intake Trend: This query tracks the daily total calorie consumption over time, showing how caloric intake varies day by day.
+#### Daily Caloric Intake Trend: 
+This query tracks the daily total calorie consumption over time, showing how caloric intake varies day by day.
 
-Top 5 Highest Calorie Food Items: This query identifies the top 5 food items contributing the most to total calorie consumption.
+#### Top 5 Highest Calorie Food Items: 
+This query identifies the top 5 food items contributing the most to total calorie consumption.
 
-## Insights
+### Insights
 Food Categories with the Most Calories: This analysis identifies the food categories (e.g., Fruits, Vegetables, Snacks) contributing the most to calorie consumption.
 Meal Types with the Most Nutrients: This analysis highlights which meal types (e.g., Breakfast, Lunch, Dinner) are nutrient-dense, helping to better understand dietary patterns.
 Daily Caloric Intake Trends: Track changes in daily calorie consumption over time to spot patterns or trends.
