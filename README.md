@@ -1,4 +1,4 @@
-# Daily Food and Nutrition Analysis
+# Daily Food and Nutrition Analysis using Databricks SQL
 This project performs data analysis on the Daily Food & Nutrition Dataset, which is designed for health-related machine learning models to analyze dietary patterns, nutritional intake, and their impact on health. The dataset contains 10,000 records from 1,000 unique users, covering a wide variety of food items and their nutritional values.
 
 Dataset Overview
@@ -24,22 +24,17 @@ The dataset provides comprehensive information about food consumption, including
 | **Water_Intake (ml)**| Amount of water consumed during the meal, measured in milliliters. |
 
 ### Project Overview Features
-This project aims to explore key insights into daily food consumption, including the nutritional content of food items and meals. The analysis uses SQL queries to answer the following questions:
+This project was completed using Databricks SQL to explore and analyze the Daily Food & Nutrition Dataset. The primary goal of this analysis is to uncover insights into daily food consumption patterns and nutritional intake. The project uses SQL queries to address key questions related to food categories, meal types, caloric intake trends, and top-calorie food items.
 
-#### Total Calories by Food Category: 
-This query calculates the total calories consumed by each food category. It helps to identify which food categories contribute the most to overall calorie intake.
+#### Databricks SQL
+The project was carried out in a Databricks SQL notebook, which enabled efficient querying and visualization of the dataset. Databricks provided a collaborative environment for running SQL queries and visualizing the results, making it ideal for analyzing large datasets like the one used here.
 
-#### Total Nutrients Per Meal Type: 
-This query sums up the nutritional content (Calories, Protein, Carbohydrates, and Fat) per meal type (e.g., Breakfast, Lunch, Dinner, Snack). It helps to understand which meals are most nutrient-dense.
+The following SQL queries were executed to generate insights:
 
-#### Daily Caloric Intake Trend: 
-This query tracks the daily total calorie consumption over time, showing how caloric intake varies day by day.
+1. Total Calories by Food Category: This query calculates the total calories consumed by each food category. It helps identify which food categories contribute the most to overall calorie intake.
 
-#### Top 5 Highest Calorie Food Items: 
-This query identifies the top 5 food items contributing the most to total calorie consumption.
+2. Total Nutrients Per Meal Type: This query sums up the nutritional content (Calories, Protein, Carbohydrates, and Fat) per meal type (e.g., Breakfast, Lunch, Dinner, Snack). It helps understand which meals are most nutrient-dense.
 
-### Insights
-Food Categories with the Most Calories: This analysis identifies the food categories (e.g., Fruits, Vegetables, Snacks) contributing the most to calorie consumption.
-Meal Types with the Most Nutrients: This analysis highlights which meal types (e.g., Breakfast, Lunch, Dinner) are nutrient-dense, helping to better understand dietary patterns.
-Daily Caloric Intake Trends: Track changes in daily calorie consumption over time to spot patterns or trends.
-Top Calorie-Contributing Food Items: Discover which individual food items (e.g., Apple, Rice, Chicken Breast) are the highest contributors to total calorie intake.
+3. Daily Caloric Intake Trend: This query tracks the daily total calorie consumption over time, showing how caloric intake varies day by day.
+
+4. Top 5 Highest Calorie Food Items: This query identifies the top 5 food items contributing the most to total calorie consumption.
